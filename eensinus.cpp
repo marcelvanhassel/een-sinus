@@ -12,7 +12,7 @@ int main()
 	for(t = 0.0 ; t <= 2.0; t += 0.02)
 	{
 		// Sinus berekend
-		double result = sin(t);
+		double result = sin(t*M_PI);
 
 		cout << result << endl;
 
